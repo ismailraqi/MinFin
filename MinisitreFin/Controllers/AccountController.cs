@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using MinisitreFin.Models;
+using MinistreFin.Data;
 
 namespace MinisitreFin.Controllers
 {
@@ -166,6 +167,7 @@ namespace MinisitreFin.Controllers
                     return RedirectToAction("Index", "Home");
                 }
                 AddErrors(result);
+
             }
 
             // If we got this far, something failed, redisplay form

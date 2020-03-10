@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e2ede856630c44e7a209df8f8f92119d" Name="Diagram1" ZoomLevel="46">
+        <EntityTypeShape EntityType="MinistreFinModel.Activite" Width="1.5" PointX="14.625" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Agendum" Width="1.5" PointX="9.625" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Article" Width="1.5" PointX="16" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.compte_rendu" Width="1.5" PointX="17.125" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Evenement" Width="1.5" PointX="8.5" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.groue_detail" Width="1.5" PointX="5.875" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Groupe_thematiqe" Width="1.5" PointX="3.375" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Initiative" Width="1.5" PointX="17.875" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Programme" Width="1.5" PointX="9.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Projet" Width="1.5" PointX="14.875" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Type_Activite" Width="1.5" PointX="12.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MinistreFinModel.Utilisateur" Width="1.5" PointX="12.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="MinistreFinModel.avoir" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.FKActivites519089" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.creer" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.creer5" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.Class" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.Class2" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.creer6" ManuallyRouted="false" />
+        <AssociationConnector ManuallyRouted="true" Association="MinistreFinModel.contient">
+          <ConnectorPoint PointX="11" PointY="12.182190755208334" />
+          <ConnectorPoint PointX="11" PointY="62.199948845952918" />
+          <ConnectorPoint PointX="10.459280561296566" PointY="62.199948845952918" />
+          <ConnectorPoint PointX="10.459280561296566" PointY="64.336889927955767" />
+          <ConnectorPoint PointX="10.736742944715752" PointY="64.336889927955767" />
+          <ConnectorPoint PointX="11.10934119521745" PointY="65.273213738748979" />
+          <ConnectorPoint PointX="11.170964191521497" PointY="65.428069749624541" />
+          <ConnectorPoint PointX="12.674242944715752" PointY="69.20574634628079" />
+          <ConnectorPoint PointX="11.464015677899685" PointY="69.20574634628079" />
+          <ConnectorPoint PointX="11.464015677899685" PointY="66.819383130105251" />
+          <ConnectorPoint PointX="11.140152693369473" PointY="66.819383130105251" />
+          <ConnectorPoint PointX="11.140152693369473" PointY="29.236312239058137" />
+          <ConnectorPoint PointX="13.593750286508683" PointY="29.236312239058137" />
+          <ConnectorPoint PointX="13.593750286508683" PointY="71.704913389571232" />
+          <ConnectorPoint PointX="15.531250286508683" PointY="64.994115052241611" />
+          <ConnectorPoint PointX="14.875" PointY="64.994115052241611" />
+          <ConnectorPoint PointX="14.875" PointY="11.932190755208332" />
+        </AssociationConnector>
+        <AssociationConnector Association="MinistreFinModel.creer2" ManuallyRouted="true" >
+          <ConnectorPoint PointX="13" PointY="8.8936979166666674" />
+          <ConnectorPoint PointX="13" PointY="9.7830080505205164" />
+          <ConnectorPoint PointX="11.66" PointY="9.7830080505205164" />
+          <ConnectorPoint PointX="11.66" PointY="11.51164556640625" />
+          <ConnectorPoint PointX="11" PointY="11.51164556640625" />
+        </AssociationConnector>
+        <AssociationConnector Association="MinistreFinModel.Agenda_Activites" ManuallyRouted="false" />
+        <AssociationConnector Association="MinistreFinModel.Utilisateur_Evenement" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MinistreFinModel.C__MigrationHistory" Width="1.5" PointX="1.625" PointY="7.875" />
+        <EntityTypeShape EntityType="MinistreFinModel.AspNetRole" Width="1.5" PointX="0.75" PointY="12.5" />
+        <EntityTypeShape EntityType="MinistreFinModel.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="11" />
+        <EntityTypeShape EntityType="MinistreFinModel.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="13.75" />
+        <EntityTypeShape EntityType="MinistreFinModel.AspNetUser" Width="1.5" PointX="3" PointY="11.375" />
+        <AssociationConnector Association="MinistreFinModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MinistreFinModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="MinistreFinModel.AspNetUserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
